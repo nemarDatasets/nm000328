@@ -1,0 +1,142 @@
+_dataset:
+  class: MILimbEEG
+  code: MILimbEEG
+  doi: 10.1016/j.dib.2023.109540
+  interval:
+  - 0.0
+  - 3.992
+  n_subjects: 60
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 16
+  electrode_type: dry
+  hardware: OpenBCI Cyton+Daisy
+  line_freq: 60.0
+  montage: 10-10
+  reference: neutral ear (monopolar)
+  sampling_rate: 125.0
+  sensor_type: dry
+  sensors:
+  - FC5
+  - F3
+  - Fz
+  - F4
+  - FC6
+  - FC1
+  - FC2
+  - Cz
+  - T7
+  - CP5
+  - C3
+  - CP1
+  - CP2
+  - C4
+  - CP6
+  - T8
+contributing_labs:
+- ESPOL
+- Hospital General Luis Vernaza
+data_structure:
+  trials_context: 'Per repetition and per activity type (execution/imagery): 1 baseline-eyes-open, 5 trials each of 6 limb
+    movements, and 31 rest trials (62 files); only the imagery files are loaded here.'
+documentation:
+  country: EC
+  data_url: https://doi.org/10.17632/x8psbz3f6x.2
+  description: Over 8,680 four-second EEG recordings from 60 volunteers performing and imagining upper- and lower-limb movements,
+    recorded with a 16-channel OpenBCI Cyton+Daisy at 125 Hz.
+  doi: 10.1016/j.dib.2023.109540
+  institution: Escuela Superior Politecnica del Litoral (ESPOL)
+  investigators:
+  - Victor Asanza
+  - Daniel Montoya
+  - Leandro L. Lorente-Leyva
+  - Diego H. Peluffo-Ordonez
+  - Kleber Gonzalez
+  keywords:
+  - motor imagery
+  - motor execution
+  - EEG
+  - brain-computer interface
+  - upper limb
+  - lower limb
+  - OpenBCI
+  license: CC-BY-4.0
+  publication_year: 2023
+  repository: Mendeley Data
+experiment:
+  class_labels:
+  - beo
+  - clh
+  - crh
+  - dlf
+  - plf
+  - drf
+  - prf
+  - rest
+  events:
+    beo: 1
+    clh: 2
+    crh: 3
+    dlf: 4
+    drf: 6
+    plf: 5
+    prf: 7
+    rest: 8
+  feedback_type: none
+  mode: offline
+  n_classes: 8
+  paradigm: imagery
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual
+  study_design: Upper- and lower-limb motor execution and motor imagery. Per repetition, participants first performed then
+    imagined hand closing (left/right) and foot flexion (dorsal/plantar, left/right), with a baseline-eyes-open and rest periods.
+  synchronicity: cue-based
+  trial_duration: 4.0
+file_format: CSV
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - beo
+  - clh
+  - crh
+  - dlf
+  - plf
+  - drf
+  - prf
+  - rest
+participants:
+  age_mean: 36.0
+  clinical_population: mostly healthy; 2 amputees (both upper limbs; right lower limb below the knee), 1 hydrocephalus after
+    ventricular infarct, 18 post-COVID-19
+  gender:
+    female: 31
+    male: 29
+  handedness:
+    left: 3
+    right: 57
+  health_status: mixed
+  n_subjects: 60
+  species: homo sapiens
+preprocessing:
+  bandpass:
+  - 5.0
+  - 50.0
+  data_state: raw
+  highpass_hz: 5.0
+  lowpass_hz: 50.0
+  preprocessing_applied: true
+  preprocessing_steps:
+  - hardware band-pass 5-50 Hz
+  - 60 Hz notch
+runs_per_session: 1
+sessions_per_subject: 1
+tags:
+  modality:
+  - Motor
+  pathology:
+  - mixed
+  type:
+  - Motor Imagery
