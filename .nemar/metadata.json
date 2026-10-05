@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "MILimbEEG: Motor and motor-imagery limb EEG dataset (MILimbEEG)",
+  "description": "MILimbEEG is an EEG dataset of over 8,680 four-second recordings from 60 volunteers performing and imagining upper- and lower-limb movements. Movements include left and right hand closing and dorsal and plantar foot flexion, plus baseline eyes-open and rest conditions. Signals were recorded with a 16-channel dry-electrode OpenBCI Cyton+Daisy system and are intended for motor imagery brain-computer interface research. Participants include healthy volunteers, amputees and post-COVID-19 individuals.",
+  "methods_description": "EEG was recorded at 125 Hz from 16 dry electrodes (10-10 montage) using an OpenBCI Cyton+Daisy with a neutral ear reference. A hardware band-pass of 5-50 Hz and a 60 Hz notch filter were applied. In each repetition, participants executed and then imagined hand closing and foot flexion movements following visual cues, with baseline eyes-open and rest periods.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Victor Asanza": {
       "orcid": "0000-0002-2786-4162"
@@ -14,6 +19,31 @@
     "Diego H. Peluffo-Ordonez": {},
     "Kleber Gonzalez": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "motor execution"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "upper limb"
+    },
+    {
+      "term": "lower limb"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1016/j.dib.2023.109540",
@@ -46,14 +76,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "MILimbEEG",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "57.66 MB (61 files)"
   ],
@@ -61,32 +88,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "MILimbEEG is an EEG dataset of over 8,680 four-second recordings from 60 volunteers performing and imagining upper- and lower-limb movements. The movements are left and right hand closing and dorsal and plantar foot flexion, with baseline eyes-open and rest conditions. Signals were recorded with a 16-channel dry-electrode OpenBCI Cyton+Daisy system at 125 Hz. The participants include healthy individuals, amputees and post-COVID-19 individuals. The dataset supports brain-computer interface research.",
-  "methods_description": "Sixty volunteers each completed one session in which they performed and then imagined hand closing and foot flexion movements, plus baseline eyes-open and rest periods, following visual cues. EEG was recorded from 16 dry electrodes (10-10 montage) with an OpenBCI Cyton+Daisy at 125 Hz, referenced to a neutral ear electrode. Hardware filtering applied a 5-50 Hz band-pass and a 60 Hz notch.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "motor execution"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "upper limb"
-    },
-    {
-      "term": "lower limb"
-    },
-    {
-      "term": "OpenBCI"
-    }
-  ],
-  "source_hash": "0aa68513f3480716175065ae54a07be251d706a2d93eced6c3e205e2a006aa04"
+  "source_hash": "56f13e9d3820a2541bf765bb2262927f2e30028a69dd1d228000410a0a18388d"
 }
