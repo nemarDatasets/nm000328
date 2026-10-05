@@ -1,5 +1,5 @@
 {
-    "Name": "MILimbEEG",
+    "Name": "MILimbEEG: Motor and motor-imagery limb EEG dataset (MILimbEEG)",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -38,5 +38,8 @@
             "URL": "https://doi.org/10.17632/x8psbz3f6x.2"
         }
     ],
-    "PublicationYear": 2023
+    "PublicationYear": 2023,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
