@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MILimbEEG: Motor and motor-imagery limb EEG dataset (MILimbEEG)",
-  "description": "MILimbEEG is an EEG dataset of over 8,680 four-second recordings from 60 volunteers performing and imagining upper- and lower-limb movements. Movements include left and right hand closing and dorsal and plantar foot flexion, plus baseline eyes-open and rest conditions. Signals were recorded with a 16-channel dry-electrode OpenBCI Cyton+Daisy system and are intended for motor imagery brain-computer interface research. Participants include healthy volunteers, amputees and post-COVID-19 individuals.",
-  "methods_description": "EEG was recorded at 125 Hz from 16 dry electrodes (10-10 montage) using an OpenBCI Cyton+Daisy with a neutral ear reference. A hardware band-pass of 5-50 Hz and a 60 Hz notch filter were applied. In each repetition, participants executed and then imagined hand closing and foot flexion movements following visual cues, with baseline eyes-open and rest periods.",
+  "description": "MILimbEEG is an EEG dataset of upper- and lower-limb motor execution and motor imagery from 60 volunteers, including healthy participants, amputees, and post-COVID-19 individuals. It contains over 8,680 four-second recordings of hand closing and foot flexion, plus baseline-eyes-open and rest conditions. The recordings were acquired with a 16-channel dry-electrode OpenBCI Cyton+Daisy system at 125 Hz. This BIDS release was generated through MOABB for brain-computer interface research.",
+  "methods_description": "EEG was recorded at 125 Hz with a 16-channel OpenBCI Cyton+Daisy dry-electrode system placed according to the 10-10 montage, with a neutral ear reference. Hardware band-pass filtering (5-50 Hz) and a 60 Hz notch were applied. In each repetition, participants performed and then imagined left/right hand closing and left/right dorsal/plantar foot flexion, with baseline-eyes-open and rest periods, using cue-based visual stimuli.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -91,5 +91,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "56f13e9d3820a2541bf765bb2262927f2e30028a69dd1d228000410a0a18388d"
+  "source_hash": "587725a7110ce8f9fbe2c58742401956f29a08980b60bfa514daf49fb5a1d01c"
 }
