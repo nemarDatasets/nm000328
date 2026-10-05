@@ -153,3 +153,13 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+## Ethics
+
+Approved by the Institutional Review Board (IRB) of the Smart Data Analysis Systems Group (SDAS Group) (meeting minutes IBR-SG-2022-001). All procedures were in accordance with the ethical standards of the institutional/national research committee and with the 1964 Declaration of Helsinki, and informed consent was obtained from all participants (Asanza et al. 2023, Data in Brief 49:109540, DOI 10.1016/j.dib.2023.109540).
+
+Verbatim from the source:
+
+> All procedures performed in this study involving human participants were in accordance with the ethical standards of the institutional and/or national research committee and with the 1964 Helsinki declaration and its later amendments or comparable ethical standards, informed consent was obtained from all individual participants involved in this study ... An application form for ethics approval alongside with the corresponding supporting documents was timely submitted by the authors and subsequently approved by the Institutional Review Board (IRB) of the Smart Data Analysis Systems Group (Meeting minutes IBR-SG-2022-001).
+
+Source: cached paper .paper-audit/MILimbEEG/paper-10_1016_j_dib_2023_109540.txt (Asanza et al. 2023, Data in Brief 49:109540, DOI 10.1016/j.dib.2023.109540).

@@ -40,6 +40,6 @@
     ],
     "PublicationYear": 2023,
     "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+        "Approved by the Institutional Review Board (IRB) of the Smart Data Analysis Systems Group (SDAS Group) (meeting minutes IBR-SG-2022-001). All procedures were in accordance with the ethical standards of the institutional/national research committee and with the 1964 Declaration of Helsinki, and informed consent was obtained from all participants (Asanza et al. 2023, Data in Brief 49:109540, DOI 10.1016/j.dib.2023.109540)."
     ]
 }
