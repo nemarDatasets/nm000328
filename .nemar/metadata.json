@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "MILimbEEG: Motor and motor-imagery limb EEG dataset (MILimbEEG)",
-  "description": "MILimbEEG is an EEG dataset of upper- and lower-limb motor execution and motor imagery from 60 volunteers, including healthy participants, amputees, and post-COVID-19 individuals. It contains over 8,680 four-second recordings of hand closing and foot flexion, plus baseline-eyes-open and rest conditions. The recordings were acquired with a 16-channel dry-electrode OpenBCI Cyton+Daisy system at 125 Hz. This BIDS release was generated through MOABB for brain-computer interface research.",
-  "methods_description": "EEG was recorded at 125 Hz with a 16-channel OpenBCI Cyton+Daisy dry-electrode system placed according to the 10-10 montage, with a neutral ear reference. Hardware band-pass filtering (5-50 Hz) and a 60 Hz notch were applied. In each repetition, participants performed and then imagined left/right hand closing and left/right dorsal/plantar foot flexion, with baseline-eyes-open and rest periods, using cue-based visual stimuli.",
+  "description": "MILimbEEG is an EEG dataset of over 8,680 four-second recordings from 60 volunteers who performed and imagined upper- and lower-limb movements. The movements were hand closing (left and right) and dorsal and plantar foot flexion (left and right), with baseline eyes-open and rest conditions. Signals were recorded with a 16-channel dry-electrode OpenBCI Cyton+Daisy system at 125 Hz. The cohort includes healthy participants, amputees and post-COVID-19 individuals, and the data support brain-computer interface and motor imagery research.",
+  "methods_description": "EEG was recorded at 125 Hz from 16 dry electrodes (10-10 montage) with an OpenBCI Cyton+Daisy and a neutral ear reference. A hardware band-pass of 5-50 Hz and a 60 Hz notch were applied. In each repetition, participants first executed and then imagined limb movements in cue-based visual trials of 4 s, alongside baseline eyes-open and rest periods.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,27 +21,29 @@
   },
   "keywords": [
     {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "motor execution"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "upper limb"
-    },
-    {
-      "term": "lower limb"
-    },
-    {
       "term": "Electroencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Motor imagery"
+    },
+    {
+      "term": "Motor execution"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Upper limb"
+    },
+    {
+      "term": "Lower limb"
+    },
+    {
+      "term": "OpenBCI"
     }
   ],
   "related_identifiers": [
@@ -82,14 +84,16 @@
     "eeg"
   ],
   "sizes": [
-    "57.66 MB (61 files)"
+    "1.09 GB (7440 files)"
   ],
   "formats": [
+    ".csv",
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "587725a7110ce8f9fbe2c58742401956f29a08980b60bfa514daf49fb5a1d01c"
+  "source_hash": "20cebda9e21f2753f1b23e45481602ba0d4ad9ea16dedd7090bb663c4a86999a"
 }
